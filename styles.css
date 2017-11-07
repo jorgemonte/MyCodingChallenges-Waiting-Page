@@ -1,0 +1,231 @@
+/* FONTS 
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Inconsolata', monospace;
+
+
+*/
+
+*{ margin: 0; padding: 0; }
+
+body{ background-color: #131010; }
+
+ul{ list-style: none;}
+
+a{	text-decoration: none; 	color: inherit;}
+
+
+
+.site-container{
+	height: 100vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.red-b{border:2px solid red;}
+.yellow-b{border:2px solid yellow;}
+.blue-b{border:2px solid blue;}
+.white-b{border:2px solid white;}
+
+.grey-txt{color: grey;}
+.lightgrey-txt{color:#524c67;}
+.pale-txt{color: whitesmoke;}
+.purple-txt{color:#524c67;}
+.purple-light-txt{color:#81799e;}
+.bronze-txt{color:#a2676c;}
+
+
+.font-1{font-family: 'Oswald', sans-serif;}
+.regular{font-weight: 400;}
+.light{font-weight: 200;}
+.bold{font-weight: 700;}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.banner-txt{
+	text-align: center;
+}
+
+.banner-txt h1{
+	margin-bottom: 10px;
+	font-size: 3em;
+	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+	color: #eae7e7;
+	text-shadow: 0 0 8px rgba(0,0,0,0.4);
+
+}
+.banner-txt p{
+	font-family: 'Open Sans', sans-serif;
+	color: #707073;
+	font-weight: 400;
+	line-height: 1.5em;
+	text-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+
+
+nav{
+	width: 95%;
+	margin: 25px auto 0 auto;
+	color:#524c67;
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+}
+
+
+
+.social-media{
+	position: relative;
+	float: left;
+}
+
+
+.social-media ul li{
+	display: inline-block;
+	margin-right: .3em;
+}
+
+a,
+.menu a{
+	-webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+}
+
+a:hover{
+	color: #a091d4;
+}
+
+.menu{
+	float: right;
+}
+
+.about-txt h1{
+
+}
+.about-txt p{
+	padding-top: 30px;
+	max-width: 50%;
+	margin:0 auto;
+	text-align: justify;
+}
+
+@media screen and (max-width: 1080px) {
+	.banner-txt{
+		width:80%;
+	}
+
+	.about-txt p{
+	padding-top: 30px;
+	max-width: 80%;
+	margin:0 auto;
+	text-align: justify;
+}
+}
+
+/* Small devices (landscape phones, 680px and less)*/
+@media screen and (max-width: 680px) {
+	nav{
+  		max-width: 80vw;
+  		margin: 0 auto;
+  	}
+
+  	nav{
+  		margin-top: 20px;
+ 	}
+
+ 	.site-container{
+		max-width: 90vw;
+		margin: 0 auto;
+	}
+
+  	.social-media ul li{
+		margin-right:1.5em;
+	}
+
+	.banner-txt{
+		color: red;
+		width:100%;
+	}
+
+	.about-txt p{
+	padding-top: 30px;
+	max-width: 95%;
+	
+}
+}
+
+/* Small devices (landscape phones, 360px and less)*/
+@media screen and (max-width: 360px) {
+	
+
+		nav{
+  		max-width: 80vw;
+  		margin: 0 auto;
+  	}
+
+  	nav{
+  		margin-top: 20px;
+  		margin-bottom: 20px;
+ 	}
+
+ 	.banner-txt h1{
+		font-size: 28px;
+ 	}
+
+ 	.site-container{
+
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+  	.social-media ul li{
+		margin-right:1.5em;
+	}
+
+
+/* FONTS MEDIA QUERIES 
+
+@media screen and (min-width: 500px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 570px){
+  html{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 620px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 680px){
+  html{
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 720px){
+  html{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px){
+  html{
+    font-size: 21px;
+  }
+}
+*/
